@@ -11,7 +11,8 @@
     "format": "prettier --check --cache **/*.{tsx,ts}",
     "postinstall": "husky install",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "generate": "plop"
   },
   "dependencies": {
     "next": "13.4.19",
@@ -41,6 +42,7 @@
     "eslint-plugin-storybook": "^0.6.13",
     "husky": "^8.0.3",
     "msw": "^1.2.3",
+    "plop": "^4.0.0",
     "prettier": "^3.0.2",
     "storybook": "^7.3.2",
     "typescript": "^5.1.6"
